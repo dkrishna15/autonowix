@@ -95,6 +95,10 @@ nav a:hover {
   font-style: normal;
   font-size: 80px;
   }
+  .of {
+  display: inline-block;
+  transition: all 0.3s ease;
+  }
 
   .hero h2 {
   font-family: "Share Tech", sans-serif;
@@ -666,13 +670,27 @@ nav a:hover {
  }
 
  .hero h1{
-  font-size: 60px;
+  font-size: 40px;
+  display: block;
  }
  .hero h2{
-font-size: 60px;
+font-size: 40px;
  }
  .hero p{
-  font-size: 15px
+  font-size: 15px;
+  padding-right: 10px;  
+ }
+ .small-title{
+  text-align: left;
+ }
+ .hero-title{
+  text-align: left;
+ }
+ .hero-text{
+  text-align: left;
+ }
+ .stats-right h2{
+  text-align: center;
  }
  .vision-text h2{
   font-size: 29px;
@@ -680,19 +698,39 @@ font-size: 60px;
  .imagereal img{
   height: 300px;
   width: 400px;
+  padding-left: 60px;
  }
  .realtext h2{
-  font-size: 29px;
+  font-size: 26px;
  }
  .realtext p{
   font-size: 14px;
  }
+ 
  .realtext{
  max-width: 100%;
+ padding: 70px;
  }
  .job-card{
-  padding: 40px;
+  padding: 20px;
  }
+ .text-container h2{
+  font-size: 26px;
+ }
+ .text-container{
+  max-width: 100%;
+  padding: 50px;
+ }
+ .image-container img{
+  padding-right: 70px;
+ }
+
+ .autonomous-image img{
+  padding-right: 70px;
+ }
+ .hero-card{
+  padding: 150px 20px;
+}
  .animated-button{
   padding: 5px 10px;
  }
@@ -712,4 +750,12 @@ font-size: 60px;
   place-items: center;
   text-align: center;
  }
+ .footer-bottom{
+    flex-direction: column;
+ }
+ .of {
+    display: block;      
+    margin-top: 10px;    
+    font-size: 36px;    
+  }
 }
