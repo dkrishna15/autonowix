@@ -61,7 +61,7 @@ nav a:hover {
   border: 1px solid #000;
 }
   
-  .hero {
+  .heros {
     background-image: url('bg1.jpg');
     background-size: cover;
     background-position: center;
@@ -75,7 +75,7 @@ nav a:hover {
     position: relative;
   }
   
-  .hero::before {
+  .heros::before {
     position: absolute;
     background: rgba(0, 0, 0, 0.4);
   }
@@ -89,7 +89,7 @@ nav a:hover {
     color: black;
   }
   
-  .hero h1 {
+  .heros h1 {
   font-family: "Share Tech", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -100,14 +100,14 @@ nav a:hover {
   transition: all 0.3s ease;
   }
 
-  .hero h2 {
+  .heros h2 {
   font-family: "Share Tech", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 80px;
   }
   
-  .hero p {
+  .heros p {
     font-size: 20px;
   }
   
@@ -313,13 +313,17 @@ nav a:hover {
     position: relative;
     height: 90vh;
     overflow: hidden;
+    background-image: url('factory.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
   }
   
-  .bg-image {
+  /* .bg-image {
     width: 100%;
     height: 100%;
     object-fit: cover;
-  }
+  } */
   
   .hero-card {
     position: absolute;
